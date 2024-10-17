@@ -342,6 +342,55 @@ navbar .nav-link:focus {
     height: 100%;
 }
 
+/* Styles for the Government Structure section */
+.government-structure .btn-block {
+    padding: 20px;
+    font-size: 1.25rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.government-structure .btn-block:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.government-structure .branch-details {
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.government-structure .branch-details.show {
+    display: block;
+}
+
+.government-structure .card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.government-structure .card-title {
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.government-structure .official-name {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.government-structure .official-title {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.government-structure img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
 @media (max-width: 992px) {
     .navbar-nav {
         padding-top: 1rem;
@@ -395,7 +444,10 @@ navbar .nav-link:focus {
     .map-container {
         padding-bottom: 56.25%; /* This creates a 16:9 aspect ratio for smaller screens */
     }
-    
+    .government-structure img {
+        width: 120px;
+        height: 120px;
+    }
 }
 
 
@@ -430,4 +482,9 @@ navbar .nav-link:focus {
         font-size: 0.85rem;
         padding: 0.25rem 0.5rem;
     }
+    .government-structure .btn-block {
+        padding: 15px;
+        font-size: 1rem;
+    }
+
 }
