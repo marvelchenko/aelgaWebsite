@@ -1,0 +1,433 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.top-bar {
+    background-color: #10217d;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+
+
+.top-bar .latest-news{
+    font-weight: bold;
+    color: white;
+}
+
+.top-bar .latest-news .news-label i{
+    color: rgb(219, 243, 0);
+}
+
+.top-bar .social-icons a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.top-bar .social-icons i{
+    font-size: 1.2rem;
+}
+
+/* Header */
+header {
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 80px;
+    margin-right: 15px;
+}
+
+.logo-text {
+    font-size: 1rem;
+    color: #10217d;
+    line-height: 1.2;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar .nav-link {
+    color: #333;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+navbar .nav-link:focus {
+    color: #10217d;
+} 
+
+.navbar .dropdown-menu {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.banner {
+    background-color: #000000;
+            color: #ffffff;
+            padding: 1.5rem 0;
+            
+}
+
+.banner p {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+
+.banner a.btn-primary:hover {
+    background-color: #0a1655;
+    border-color: #0a1655 ;
+}
+
+.slide-container {
+    margin-bottom: 30px;
+}
+
+.carousel-item {
+    height: 500px; /* Adjust this value to your preferred height */
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    bottom: 50px;
+}
+
+.carousel-caption h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.carousel-caption .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+.carousel-indicators {
+    bottom: 20px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+/* Quick Access Section */
+.quick-access {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.quick-access-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    height: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quick-access-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.quick-access-item i {
+    font-size: 3rem;
+    color: #10217d;
+    margin-bottom: 20px;
+}
+
+.quick-access-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.quick-access-item p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.quick-access-item .btn-outline-primary {
+    color: #10217d;
+    border-color: #10217d;
+}
+
+.quick-access-item .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #10217d;
+}
+
+/* Latest News & Announcements Section */
+.latest-news-announcements {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+.section-title {
+    text-align: center;
+    color: #10217d;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.news-item {
+    margin-bottom: 30px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.news-item:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.news-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.news-content {
+    padding: 20px;
+}
+
+.news-content h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.news-meta {
+    color: #777;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.news-content p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.announcements {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.announcements h3 {
+    color: #10217d;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.announcement-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.announcement-list li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 15px;
+}
+
+.announcement-list li:last-child {
+    border-bottom: none;
+}
+
+.announcement-date {
+    display: block;
+    color: #777;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.announcement-list a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.announcement-list a:hover {
+    color: #10217d;
+}
+
+/* Featured Projects Section Styles */
+.featured-projects {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+}
+
+.featured-projects .card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    margin-bottom: 2rem;
+}
+
+.featured-projects .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.featured-projects .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.featured-projects .card-title {
+    color: #007bff;
+    font-size: 1.25rem;
+    margin: 0.75rem;
+}
+
+.featured-projects .card-title {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.featured-projects .btn {
+    font-size: 0.9rem;
+    padding: 0.375rem 0.75rem;
+}
+
+.featured-projects .btn-outline-primary {
+    border-width: 2px;
+}
+
+.featured-projects .btn-outline-primary:hover{
+    background-color: #007bff;
+    color: white;
+}
+
+/* Styles for the map in the About section */
+.map-container {
+    position: relative;
+    padding-bottom: 75%; /* This creates a 4:3 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        padding-top: 1rem;
+    }
+
+    .banner {
+        text-align: center;
+    }
+
+    .banner .btn-primary {
+        margin-top: 1rem;
+    }
+
+    .carousel-item {
+        height: 300px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 1.8rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    .carousel-caption .btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    .quick-access-item {
+        padding: 20px;
+    }
+
+    .quick-access-item i {
+        font-size: 2.5rem;
+    }
+
+    .quick-access-item h3 {
+        font-size: 1.3rem;
+    }
+
+    .quick-access-item p {
+        font-size: 0.9rem;
+    }
+
+    .announcements {
+        margin-top: 30px;
+    }
+
+    .map-container {
+        padding-bottom: 56.25%; /* This creates a 16:9 aspect ratio for smaller screens */
+    }
+    
+}
+
+
+
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .news-image {
+        height: 200px;
+    }
+
+    .featured-projects {
+        padding: 2rem 0;
+    }
+
+    .featured-projects .card-img-top {
+        height: 180px;
+    }
+
+    .featured-projects .card-title {
+        font-size: 1.1rem;
+    }
+
+    .featured-projects .card-text {
+        font-size: 0.85rem;
+    }
+
+    .featured-projects .btn {
+        font-size: 0.85rem;
+        padding: 0.25rem 0.5rem;
+    }
+}
