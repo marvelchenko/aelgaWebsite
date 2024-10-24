@@ -1,11 +1,18 @@
 /* General Styling */
-body {
+body, html {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+    height: 100%;
+}
+
+body {
     display: flex;
     flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
 }
 
 .top-bar {
@@ -400,10 +407,9 @@ navbar .nav-link:focus {
 
 
 footer {
-    background-color: #002F66;
-    padding: 40px;
-    margin: 0;
-    color: white;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        flex-shrink: 0;
 }
 .footer {
     background-color: #001f3f;
